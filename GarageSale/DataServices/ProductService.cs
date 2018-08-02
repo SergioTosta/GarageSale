@@ -19,7 +19,7 @@ namespace GarageSale.DataProviders
                                 }
                                 , 60.00
                                 , "Disponível"
-                                , false)
+                                , true)
                          );
 
             products.Add(new Product(2
@@ -59,7 +59,7 @@ Combinação de até 12 programas diferentes;
                                 }
                                 , 150.00
                                 , "Disponível"
-                                , false)
+                                , true)
                          );
 
             products.Add(new Product(4
@@ -123,7 +123,7 @@ Combinação de até 12 programas diferentes;
                                 , new List<string>() { "/images/10_1.jpg" }
                                 , 25.00
                                 , "Disponível"
-                                , false)
+                                , true)
                          );
 
             products.Add(new Product(11
@@ -142,7 +142,7 @@ Combinação de até 12 programas diferentes;
                                 }
                                 , 140.00
                                 , "Outubro/18"
-                                , false)
+                                , true)
                          );
 
             products.Add(new Product(12
@@ -152,7 +152,7 @@ Combinação de até 12 programas diferentes;
                                 , new List<string>() { "/images/12_1.jpg" }
                                 , 20.00
                                 , "Disponível"
-                                , false)
+                                , true)
                          );
 
             products.Add(new Product(13
@@ -165,7 +165,7 @@ Combinação de até 12 programas diferentes;
                                 }
                                 , 40.00
                                 , "Outubro/18"
-                                , false)
+                                , true)
              );
 
             products.Add(new Product(14
@@ -177,7 +177,7 @@ Combinação de até 12 programas diferentes;
                                 }
                                 , 35.00
                                 , "Disponível"
-                                , false)
+                                , true)
                          );
 
             products.Add(new Product(15
@@ -199,7 +199,7 @@ Combinação de até 12 programas diferentes;
                                 }
                                 , 50.00
                                 , "Disponível"
-                                , false)
+                                , true)
                          );
 
             products.Add(new Product(17
@@ -244,7 +244,7 @@ Combinação de até 12 programas diferentes;
                                 }
                                 , 20.00
                                 , "Disponível"
-                                , false)
+                                , true)
                          );
 
             products.Add(new Product(21
@@ -265,8 +265,34 @@ Acompanha 1 Escumadeira, 1 Concha, 1 Colher para Arroz, 1 Espátula para Fritura
                     , new List<string>() { "/images/22_1.jpg" }
                     , 20.00
                     , "Outubro/18"
-                    , false)
+                    , true)
              );
+
+            products.Add(new Product(23
+                                , "Mala média de viagem"
+                                , "Mala média"
+                                , "Mala tamanho 'M', expansível e possui 4 rodas. SEM USO."
+                                , new List<string>() { "/images/23_1.jpg"
+                                                      ,"/images/23_2.jpg"
+                                                      ,"/images/23_3.jpg"
+                                                      ,"/images/23_4.jpg"
+                                }
+                                , 200.00
+                                , "Disponível"
+                                , false)
+            );
+
+            products.Add(new Product(24
+                                , "Ferro elétrico"
+                                , "Ferro elétrico Britânia"
+                                , "Ferro elétrico Britânia"
+                                , new List<string>() { "/images/24_1.jpg"
+                                                      ,"/images/24_2.jpg"
+                                }
+                                , 40.00
+                                , "Outubro/18"
+                                , false)
+            );
 
             return products;
         }
